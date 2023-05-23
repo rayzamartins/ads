@@ -7,8 +7,8 @@ import java.net.URL;
 public class GitHubCommitsList {
 
     public static void main(String[] args) {
-        String owner = "nome-do-usuario";
-        String repo = "nome-do-repositorio";
+        String owner = "rayzamartins";
+        String repo = "ads";
 
         try {
             URL url = new URL("https://api.github.com/repos/" + owner + "/" + repo + "/commits");
